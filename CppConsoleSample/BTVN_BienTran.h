@@ -1,0 +1,10 @@
+#pragma once
+int find_min_max_value_in_array();
+int calc_s_sum();
+int Student_management();
+int calc_2210_sum();
+int sort_2210_2d_array();
+int PhanSo_2210();
+int vector_example();
+//int validate();
+int vector_calculate();
