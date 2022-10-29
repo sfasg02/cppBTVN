@@ -2,9 +2,10 @@
 //
 
 #include <iostream>
-#include <BTVN_BienTran.h>
+#include "BTVN_BienTran.h"
 #include <cstdio>
 #include <windows.h>
+//#include "1510_sort.cpp"
 
 #pragma execution_character_set( "utf-8" )
 using namespace std;
@@ -22,7 +23,7 @@ void main()
     cout << "6: (22/10) Sorting 2D array (smallest to biggest)." << endl;
     cout << "7: (22/10) Xây dựng chương trình thao tác với phân số." << endl;
     cout << "8: (22/10) Xây dựng chương trình thao tác với vector (ngầm hiểu là vector toán học, không phải kiểu vector của STL)." << endl;
-
+    cout << "9: (26/10) Xây dựng chương trình quản lý hóa đơn vật tư." << endl;
     cout << "Lựa chọn của bạn: ";
     int LuaChon;
     cin >> LuaChon;
@@ -31,13 +32,13 @@ void main()
     {
     case 1: find_min_max_value_in_array(); break;
     case 2: calc_s_sum(); break;
+    case 3: sort_1510_arr(); break;
     case 4: Student_management(); break;
     case 5: calc_2210_sum(); break;
     case 6: sort_2210_2d_array(); break;
     case 7: PhanSo_2210(); break;
     case 8: vector_calculate(); break;
-    //case 9: vector_example(); break;
-    //case 10: validate(); break;
+    case 9: bill_of_material_management(); break;
     default:
         cout << "Tính năng chưa implement...";
         break;

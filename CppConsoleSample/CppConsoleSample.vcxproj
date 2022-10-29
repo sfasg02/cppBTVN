@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2610_quan_ly_vat_tu.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="1510_FindMinMax.cpp" />
     <ClCompile Include="1510_CalcSSum.cpp" />
@@ -148,10 +149,13 @@
     <ClCompile Include="2210_PhanSo.cpp" />
     <ClCompile Include="1510_Student_management.cpp" />
     <ClCompile Include="2210_vector_calculate.cpp" />
+    <ClCompile Include="Sort_thuat_toan.cpp" />
+    <ClCompile Include="1510_sort.cpp" />
     <ClCompile Include="Vector_example.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BTVN_BienTran.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

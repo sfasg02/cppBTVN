@@ -42,9 +42,21 @@
     <ClCompile Include="2210_vector_calculate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sort_thuat_toan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1510_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2610_quan_ly_vat_tu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BTVN_BienTran.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
